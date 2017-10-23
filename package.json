@@ -1,0 +1,28 @@
+{
+  "name": "bearapi",
+  "version": "1.0.0",
+  "description": "RESTful API for test",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhangly7/API-test.git"
+  },
+  "keywords": [
+    "API"
+  ],
+  "author": "luyao",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zhangly7/API-test/issues"
+  },
+  "homepage": "https://github.com/zhangly7/API-test#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "mongoose": "^4.10.8"
+  }
+}
